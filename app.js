@@ -93,3 +93,13 @@ let info= [ {
 }
 ]
 console.log(info)
+
+console.log(info[2])
+
+
+//math object
+
+console.log(Math)
+console.log(Math.PI)
+console.log(Math.pow(2,5))
+console.log(Math.floor(22.9))
