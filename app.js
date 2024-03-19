@@ -103,3 +103,85 @@ console.log(Math)
 console.log(Math.PI)
 console.log(Math.pow(2,5))
 console.log(Math.floor(22.9))
+console.log(Math.ceil(22.2))
+console.log(Math.random())
+console.log(Math.random())
+
+//random integers
+let a=Math.random()
+console.log(a)
+a=a*10
+console.log(a)
+console.log(Math.floor(a))
+a=a+1
+console.log(a)
+console.log(a)
+// random number b/w 1 and 100
+ let num=Math.random()
+ console.log(num)
+ num=num*100
+ console.log(num)
+ console.log(Math.floor(num))
+ console.log(num+1)
+ console.log(num+1)
+ console.log(Math.random()*100)+1
+ console.log(Math.random()*100)+1
+ console.log(Math.floor(Math.random()*100)+1)
+ console.log(Math.floor(Math.random()*100)+1)
+
+
+
+ 
+ //practice paper
+ //ques 1
+ console.log("generate 1 to 6")
+ let n=Math.random()+1
+ console.log(n)
+ console.log(n+1)
+ console.log(n+2)
+ console.log(n+3)
+ console.log(n+4)
+ number=console.log(Math.floor(n+5))
+
+ //ques 2
+ let car={
+    name:"mercedes",
+    model:"not known",
+    color:"black"
+ }
+ console.log(car)
+ console.log(car.name)
+
+   // ques 3
+   let person={
+    name:"namrata raj",
+    age:21,
+    city:"bihar"
+   }
+   console.log(person)
+   console.log(person.city="punjab")
+   console.log(person)
+   console.log(person.country="new york")
+   console.log(person)
+ 
+//guesing game
+
+const max=prompt("enter the maximum number")
+const random= Math.floor(Math.random()*max)
+console.log(random)
+
+let guess=prompt("guess the number")
+
+while(true){
+    if(guess=="quit"){
+        console.log("user quit")
+        break;
+    }
+    if(guess==random){
+        console.log("you are right!! congrats!!")
+        break;
+    }
+    else{
+        prompt("your guess was wrong . please try again")
+    }
+}
